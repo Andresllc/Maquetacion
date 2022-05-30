@@ -17,7 +17,13 @@
 .Bodyheader
 {
     display: flex;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: rgb(179, 197, 215);
+    height: 100px;
+    width: 100%;
+    
     
 }
 .Bodybody
@@ -31,6 +37,7 @@
 .Cervezas
 {
     width: 80%;
+    border-radius: 50px;
     display:flex;
     flex-wrap: wrap;
     flex-direction:row;
@@ -41,7 +48,7 @@
 .cerveza
 {
     border:5px solid rgb(23, 42, 58);
-    border-radius: 10px;
+    border-radius: 50px;
     background-color: azure;
     padding: 20px;
     margin: 5px;
